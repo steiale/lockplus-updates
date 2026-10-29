@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>LockPlus</title>
     <link>https://steiale.github.io/lockplus-updates/appcast.xml</link>
     <description>LockPlus for macOS — update feed</description>
     <language>en</language>
   </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: tXe2APP9w/3LB9eJ8S/Cy34odyYNzygNFyKiJ9Ozip9EZp1MciZRcAPovNbYCORP5yd8hRdsqyWsHpl1JoeLDg==
+length: 648
+-->
