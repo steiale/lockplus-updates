@@ -1,13 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
-  <channel>
-    <title>LockPlus</title>
-    <link>https://steiale.github.io/lockplus-updates/appcast.xml</link>
-    <description>LockPlus for macOS — update feed</description>
-    <language>en</language>
-  </channel>
-</rss><!-- sparkle-signatures:
-edSignature: tXe2APP9w/3LB9eJ8S/Cy34odyYNzygNFyKiJ9Ozip9EZp1MciZRcAPovNbYCORP5yd8hRdsqyWsHpl1JoeLDg==
-length: 648
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>LockPlus</title>
+        <link>https://steiale.github.io/lockplus-updates/appcast.xml</link>
+        <description>LockPlus for macOS — update feed</description>
+        <language>en</language>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Tue, 10 Nov 2026 17:08:37 +0100</pubDate>
+            <link>https://github.com/steiale/lockplus</link>
+            <sparkle:version>200022</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**LockPlus 2.0.0** — the first release of the native LockPlus: a WireGuard and OpenVPN client with a kill switch
+enforced by macOS, auto-connect on untrusted networks, Pause Protection, DNS verification and live rates in the menu
+bar. Release notes: https://github.com/steiale/lockplus-updates/releases/tag/v2.0.0
+]]></description>
+            <enclosure url="https://github.com/steiale/lockplus-updates/releases/download/v2.0.0/LockPlus-2.0.0.zip" length="11202377" type="application/octet-stream" sparkle:edSignature="0RzJNrpNCtQt2oepwotaqnaNg9wsbtTR3HoOsxWoMziIpP4wAwF/Qpgfo3KMxBRVvjIOUsCHKiJbIKb/HbmkCg=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: c7l13I3UqzA49xgPCBo8HTMUAZbj1defzyaCNIZbijKT/bI9o2J/8GpykfZp5Q2XQ2jISHP2eaCSYolaJ7c6BQ==
+length: 1819
 -->
