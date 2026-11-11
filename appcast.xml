@@ -9,6 +9,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>LockPlus for macOS — update feed</description>
         <language>en</language>
         <item>
+            <title>2.0.1</title>
+            <pubDate>Wed, 11 Nov 2026 06:58:57 +0100</pubDate>
+            <link>https://github.com/steiale/lockplus</link>
+            <sparkle:version>200025</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[**LockPlus 2.0.1**: a second LockPlus profile started outside the app no longer takes over a running connection, and
+the kill switch has priority. Release notes: https://github.com/steiale/lockplus-updates/releases/tag/v2.0.1
+]]></description>
+            <enclosure url="https://github.com/steiale/lockplus-updates/releases/download/v2.0.1/LockPlus-2.0.1.zip" length="11311559" type="application/octet-stream" sparkle:edSignature="3zJOmklN5XSmlq3LJ1fqx0PB5ZOGmDuqMpDay9O7yA8RHKF7Z/SdFsqLOCoZwKvIe4D0nLMOp8D7McUi4eqQAA=="/>
+        </item>
+        <item>
             <title>2.0.0</title>
             <pubDate>Tue, 10 Nov 2026 17:08:37 +0100</pubDate>
             <link>https://github.com/steiale/lockplus</link>
@@ -25,6 +38,6 @@ bar. Release notes: https://github.com/steiale/lockplus-updates/releases/tag/v2.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: c7l13I3UqzA49xgPCBo8HTMUAZbj1defzyaCNIZbijKT/bI9o2J/8GpykfZp5Q2XQ2jISHP2eaCSYolaJ7c6BQ==
-length: 1819
+edSignature: ZdU/KpLCiL464iYpyj1Fu1H+6L1cnAZDIcz7Ex7aft6BBj7hudiyvwjawm2FyjRRrqiq3LSn0/JZMj/GWNdPCg==
+length: 2877
 -->
