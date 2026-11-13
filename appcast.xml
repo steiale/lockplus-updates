@@ -16,9 +16,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[**LockPlus 2.0.2**: profiles start from LockPlus (starts from System Settings only for Auto-Connect), open profiles from
-Finder, Test Connection, and profile checks in a sandboxed helper. Release notes:
-https://github.com/steiale/lockplus-updates/releases/tag/v2.0.2
+            <description sparkle:format="markdown"><![CDATA[## LockPlus 2.0.2
+
+A security update with a few new conveniences.
+
+### What changes for you
+
+- **Profiles now start from LockPlus.** Connect from the LockPlus window or the menu bar as before. Starting a profile
+  from System Settings › VPN now only works for your Auto-Connect profile; any other start from outside LockPlus is
+  refused with "Connect it from LockPlus". This also stops other users on the same Mac from connecting your profiles.
+
+### New
+
+- **Open profiles from Finder.** Double-click a `.ovpn` file, use Open With for `.conf` and `.zip`, or drop files on the
+  Dock icon. You see the usual import preview; nothing is saved until you confirm.
+- **Test Connection.** In Diagnostics (⌘R), or from the protection panel while connected: checks that IPv4, IPv6 and DNS
+  really go through the tunnel. It only contacts LockPlus's own test page, and only when you start it.
+
+### Security
+
+- Profiles are now checked in a separate, sandboxed helper with no network and no file access.
+- The end of a pause, the end of an update and your Auto-Connect choice are sealed in your keychain, so another program
+  can't use them to start a profile.
+- Zip imports are limited to 1 MB per profile and 64 MB unpacked.
+
+### Fixes
+
+- Many fixes around kill-switch sessions that macOS restarts, and Save Only while connected.
+- A start that is refused right after launch now tells you why.
+- The "Import QR Code Image…" items are gone; QR import never worked.
+
+### Known issue
+
+If LockPlus quit unexpectedly, Edit Config… may open nothing until the next normal start. Quit with ⌘Q and open LockPlus
+again. This is fixed in 2.1.
+
+[Full release notes and checksums](https://github.com/steiale/lockplus-updates/releases/tag/v2.0.2)
 ]]></description>
             <enclosure url="https://github.com/steiale/lockplus-updates/releases/download/v2.0.2/LockPlus-2.0.2.zip" length="14865095" type="application/octet-stream" sparkle:edSignature="KBMj0yXiS3X1nF0LfxLgh3waJU22HN776hEo7DoRWRdrewePH5mp+HhXN3CcZC9/YWfoY00EYOWzDfLBQLzhCg=="/>
         </item>
@@ -52,6 +85,6 @@ bar. Release notes: https://github.com/steiale/lockplus-updates/releases/tag/v2.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Oknif3oi+fY0iwErletxuOCg42V1ZFodNk3XkphIVGVmd7VQ9ecK69Ta5TOEfIAfWpofpHe7TwuoumpqM9QNCg==
-length: 3976
+edSignature: UrGQtjVtQzmi4cxxzM86hA+1TQbmYpNctX4fx/H2Y4gga9YBynQ5aZjZg1KUMvk+2eArfq+mrAz9sVQAYaHCCg==
+length: 5444
 -->
